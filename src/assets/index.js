@@ -13,6 +13,7 @@ import docker from "./tech/docker.png";
 import c_icon from "./tech/c_icon.png";
 import python from "./tech/python.png";
 import java from "./tech/java.png";
+import java2 from "./tech/java2.jpg";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -25,10 +26,8 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+
+
 import school from "./company/school.jpg";
 import college from "./company/college.png";
 import gdsc from "./company/gdsc.png";
@@ -56,6 +55,7 @@ export {
   c_icon,
   python,
   java,
+  java2,
   figma,
   git,
   html,
@@ -67,10 +67,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,

@@ -15,10 +15,6 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
@@ -26,6 +22,7 @@ import {
     c_icon,
     python,
     java,
+    java2,
     ecommerce,
     movie,
     journal,
@@ -106,27 +103,27 @@ import {
       name: "MongoDB",
       icon: mongodb,
     },
+    // {
+    //   name: "Three JS",
+    //   icon: threejs,
+    // },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
+      name: "Java",
+      icon: java2,
     },
     {
       name: "figma",
       icon: figma,
     },
     {
-      name: "Java",
-      icon: java,
+      name: "git",
+      icon: git,
     },
   ];
   
-  const experiences = [
+  const educations = [
     {
-      title: "SSC",
+      title: "Primary & Secondary Education",
       company_name: "Nelson's Internationl School",
       icon: school,
       iconBg: "#383E56",
@@ -136,18 +133,18 @@ import {
         // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         // "Implementing responsive design and ensuring cross-browser compatibility.",
         // "Participating in code reviews and providing constructive feedback to other developers.",
-        "Nursery - Class 10th"
+        "IGCSE O Level Examination"
         
       ],
     },
     {
-      title: "HSC",
+      title: "Higher Secondary Education",
       company_name: "Vedant International School",
       icon: girl,
       iconBg: "#E6DEDD",
       date: "June 2019 - August 2021",
       points: [
-        "Class 11th & 12th"
+        "CBSE"
       ],
     },
     {
@@ -268,4 +265,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, educations, testimonials, projects };
