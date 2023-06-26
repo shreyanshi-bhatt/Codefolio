@@ -247,6 +247,17 @@
 /* Media query for screens less than 500px */
 @media (max-width: 450px) {
   .animate-charcter {
-    font-size: 15px; /* Adjust the font size for smaller screens */
+    font-size: 1.3rem; /* Adjust the font size for smaller screens */
+  }
+}
+
+.player{
+  margin-top: 2%;
+  /* margin-left: 5%; */
+}
+
+@media (max-width: 504px) {
+  .player {
+    margin-top: 25%;
   }
 }
