@@ -11,12 +11,12 @@ const Tech = () => {
   return (
     <div>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>
-          Exploring a wider domain
-        </p>
         <h2 className={styles.sectionHeadText}>
           Tech Stack.
         </h2>
+        <p className={styles.sectionSubText}>
+          A never ending list of awesomness! 🚀
+        </p>
         <br></br><br></br>
       </motion.div>  
       <motion.p variants={fadeIn("", "", 0.1, 1)}>
@@ -32,4 +32,4 @@ const Tech = () => {
   )
 }
 
-export default SectionWrapper(Tech, "");
+export default SectionWrapper(Tech, "tech");

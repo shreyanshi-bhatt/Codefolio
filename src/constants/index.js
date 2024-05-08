@@ -29,7 +29,20 @@ import {
     school,
     college,
     gdsc,
-    girl
+    girl,
+    dermacare,
+    paint,
+    discord,
+    flask,
+    colab,
+    d3,
+    intellij,
+    pandas,
+    pycharm,
+    vscode,
+    numpy,
+    firebase,
+    etc
   } from "../assets";
   
   export const navLinks = [
@@ -38,8 +51,20 @@ import {
       title: "About",
     },
     {
+      id: "education",
+      title: "Education",
+    },
+    {
+      id: "experience",
+      title: "Experience",
+    },
+    {
+      id: "tech",
+      title: "Tech",
+    },
+    {
       id: "work",
-      title: "Work",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -49,22 +74,38 @@ import {
   
   const services = [
     {
-      title: "Web Wizard",
+      title: "Full Stack Developer",
       icon: web,
     },
     {
-      title: "Crafty Coder",
+      title: "Software Solution Provider",
       icon: mobile,
     },
     {
-      title: "Backend Builder",
+      title: "AI/ML Enthusiast",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Cybersecurity Practitioner",
       icon: creator,
     },
   ];
+
+  const certificates = [
+    "Postman API Fundamentals Student Expert | Postman",
+    "Responsive Web Design Certification | freeCodeCamp",
+    "AWS Cloud Quest: Cloud Practitioner | AWS",
+    "100 Days of Code - The Complete Python Pro Boot camp for 2023 | Udemy",
+    "Introduction to Cyber security | Cisco",
+    "Tree Planting Certificate for Open Source Contribution | Hacktoberfest",
+    "Academic Award of Excellence | Nelson International School",
+  ];
+
+  const courses = [
+    "The Complete 2023 Web Development Boot camp",
+    "Machine Learning A-Z",
+  ];
+
   
   const technologies = [
     {
@@ -88,8 +129,8 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Google Colab",
+      icon: colab,
     },
     {
       name: "Python",
@@ -103,21 +144,49 @@ import {
       name: "MongoDB",
       icon: mongodb,
     },
-    // {
-    //   name: "Three JS",
-    //   icon: threejs,
-    // },
+    {
+      name: "Firebase",
+      icon: firebase,
+    },
     {
       name: "Java",
       icon: java2,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "flask",
+      icon: flask,
     },
     {
       name: "git",
       icon: git,
+    },
+    {
+      name: "pandas",
+      icon: pandas,
+    },
+    {
+      name: "numpy",
+      icon: numpy,
+    },
+    {
+      name: "d3",
+      icon: d3,
+    },
+    {
+      name: "pycharm",
+      icon: pycharm,
+    },
+    {
+      name: "intellij",
+      icon: intellij,
+    },
+    {
+      name: "vscode",
+      icon: vscode,
+    },
+    {
+      name: "etc",
+      icon: etc,
     },
   ];
   
@@ -133,7 +202,9 @@ import {
         // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         // "Implementing responsive design and ensuring cross-browser compatibility.",
         // "Participating in code reviews and providing constructive feedback to other developers.",
-        "IGCSE O Level Examination"
+        "IGCSE O Level Examination",
+        "Grades: 4 A*, 2 A, 1 B, 1 C (85%)",
+        "Academic Excellence Award for securing 1st rank"
         
       ],
     },
@@ -144,7 +215,8 @@ import {
       iconBg: "#E6DEDD",
       date: "June 2019 - August 2021",
       points: [
-        "CBSE"
+        "CBSE",
+        "Percentage: 95%"
       ],
     },
     {
@@ -157,6 +229,9 @@ import {
         "2021 - Present"
       ],
     },
+  ];
+
+  const experiences = [
     {
       title: "Google Developer Students Club",
       company_name: "Core Team Member",
@@ -167,6 +242,42 @@ import {
         "Solution Challenge 2023",
         "Hack-The-League 2023",
         "Hosted events like Web3.0 etc."
+      ],
+    },
+    {
+      title: "Full Stack Freelancer",
+      company_name: "Your AI Shop",
+      icon: "https://img.icons8.com/clouds/100/laptop.png",
+      iconBg: "#383E56",
+      date: "Oct 2023 - Dec 2023",
+      points: [
+        "Worked on an AI based 'Display Profile(DP) generator' that creates realistic headshots for the user.",
+        "Contributed in the full process of frontend as well as backend development.",
+        "Gained exceptional experience working collaboratively with the founders of 'Your AI Shop'."
+        
+      ],
+    },
+    {
+      title: "J.P. Morgan Software Engineering Virtual Experience Program",
+      company_name: "Forage",
+      icon: "https://img.icons8.com/clouds/100/code.png",
+      iconBg: "#E6DEDD",
+      date: "Feb 2024 - Feb 2024",
+      points: [
+        "Set up a local dev environment by downloading the necessary files, tools and dependencies.",
+        "Fixed broken files in the repository to make web application output correctly.",
+        "Used JPMorgan Chase’s open-source library called Perspective to generate a live graph that displays a data feed in a clear and visually appealing way for traders to monitor."
+      ],
+    },
+    {
+      title: "Web Development & Designing Intern",
+      company_name: "The Sparks Foundation",
+      icon: "https://img.icons8.com/fluency/48/laptop-settings.png",
+      iconBg: "#E6DEDD",
+      date: "Feb 2024 - March 2024",
+      points: [
+        "Web testing",
+        "Created a Selenium Webdriver for Automated Testing as work deliverable"
       ],
     },
   ];
@@ -200,69 +311,89 @@ import {
   
   const projects = [
     {
-      name: "E-Commerce Store",
+      name: "SBGPT - my AI sidekick on Discord",
       description:
-        // "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs."
-        "This is an e-commerce website for electronic gadgets. I have used Sanity as my Content Management System and Stripe to create the payment checkout page.",
+        "Developed a personal AI assistant for Discord, leveraging the Discord API and ChatGPT's API. This assistant not only provides real-time support and responses but also possesses the ability to recall and reference previous interactions, enhancing user engagement and streamlining communication.",
       tags: [
         {
-          name: "nextjs",
+          name: "discordAPI",
           color: "blue-text-gradient",
         },
         {
-          name: "sanity",
+          name: "python",
           color: "green-text-gradient",
         },
         {
-          name: "stripe",
+          name: "openAI",
           color: "pink-text-gradient",
         },
       ],
-      image: ecommerce,
-      source_code_link: "https://github.com/paradoxical-bin0/ecommerce-app",
+      image: discord,
+      source_code_link: "https://replit.com/@shreyanshiBhatt/DiscordBot",
     },
     {
-      name: "Movie List App",
+      name: "Paint in the Air (OpenCV Project)",
       description:
-        "Web application that enables users to create a list of the movies that they have watched. The aim of this project was to learn Firebase integration in React.",
+        "A real-time application enabling users to create dynamic sketches by tracking motion with a marker in the air. Simply trigger the spacebar to initialize the drawing functionality, harnessing the power of computer vision for an immersive artistic experience.",
       tags: [
         {
-          name: "react",
+          name: "openCV",
           color: "blue-text-gradient",
         },
         {
-          name: "authentication",
+          name: "numpy",
           color: "green-text-gradient",
         },
         {
-          name: "firebase",
+          name: "computerVision",
           color: "pink-text-gradient",
         },
       ],
-      image: movie,
-      source_code_link: "https://github.com/paradoxical-bin0/FirebaseWithReact",
+      image: paint,
+      source_code_link: "https://github.com/shreyanshi-bhatt/ChatRoomApp",
     },
     {
-      name: "Daily Journal",
+      name: "DermaCare (MERN + Python Project)",
       description:
-        "A comprehensive journal logging platform that allows users to save the logs of their day. Go to the route /compose to create an entry. This was my very first project.",
+        "An advanced web application for dermatology that employs deep learning to diagnose skin conditions from user-uploaded images. Additionally, it facilitates direct communication between patients and their doctors for personalized consultations and diagnoses.",
       tags: [
         {
-          name: "mongodb",
+          name: "mernStack",
           color: "blue-text-gradient",
         },
         {
-          name: "express",
+          name: "mobileNetv2",
           color: "green-text-gradient",
         },
         {
-          name: "node",
+          name: "fastAPI",
           color: "pink-text-gradient",
         },
       ],
-      image: journal,
-      source_code_link: "https://github.com/paradoxical-bin0/ChatRoomApp",
+      image: dermacare,
+      source_code_link: "https://github.com/shreyanshi-bhatt/SkinScan",
     },
+    // {
+    //   name: "E-Commerce Store",
+    //   description:
+    //     "This is an e-commerce website for electronic gadgets. I have used Sanity as my Content Management System and Stripe to create the payment checkout page.",
+    //   tags: [
+    //     {
+    //       name: "nextjs",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "sanity",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "stripe",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: ecommerce,
+    //   source_code_link: "https://github.com/shreyanshi-bhatt/ecommerce-app",
+    // },
   ];
   
-  export { services, technologies, educations, testimonials, projects };
+  export { services, technologies, educations, testimonials, projects, experiences, certificates, courses};

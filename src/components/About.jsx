@@ -40,24 +40,26 @@ const About = () => {
   return (
     <>
     <motion.div variants={textVariant()}>
-      <p className={styles.sectionSubText}>Introduction</p>
-      <h2 className={styles.sectionHeadText}>Overview.</h2>
+      <h2 className={styles.sectionHeadText}>About.</h2>
+      <p className={styles.sectionSubText}>It's me! 🙋🏻‍♀️ HI! I'm the coder, it's me! 💻</p>
     </motion.div>
 
     <motion.p
       variants={fadeIn("", "", 0.1, 1)}
-      className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+      className='mt-4 text-secondary text-[17px] w-full leading-[30px]'
     >
       {/* I'm a skilled software developer with experience in TypeScript and
       JavaScript, and expertise in frameworks like React, Node.js, and
       Three.js. I'm a quick learner and collaborate closely with clients to
       create efficient, scalable, and user-friendly solutions that solve
       real-world problems. Let's work together to bring your ideas to life! */}
-        I'm a passionate student developer, well-versed in a wide range of programming languages and technologies, including C, Python, 
-        JavaScript, Java, MongoDB, Express.js, React.js, Node.js, MySQL, and more. With a strong foundation in computer 
-        science and a knack for problem-solving, I strive to transform ideas into functional and efficient code. Whether it's developing web applications, 
-        designing intuitive user interfaces, or managing databases, I have the skills to bring your technological aspirations to fruition. 
-        Let's collaborate and turn your vision into reality!
+        I'm a Full Stack Web Developer with a passion for solving real-world challenges and driving technological advancement. Proficient 
+        in a wide array of programming languages including Python, JavaScript, Java, and C, with expertise spanning frontend technologies such as ReactJS, 
+        HTML, and CSS, as well as backend frameworks like NodeJS, ExpressJS, and Flask. Skilled in database management systems such as MongoDB, MySQL, and Firebase, 
+        and adept at utilizing version control tools like Git and GitHub. With a strong foundation in computer science and a knack for problem-solving, I strive to 
+        transform ideas into functional and efficient code. Whether it's developing web applications, 
+        formulating AI solutions, or managing databases, I have the skills to bring your technological aspirations to fruition. 
+        Let's collaborate and turn visions into reality!
     </motion.p>
 
     <div className='mt-20 flex flex-wrap gap-10'>
