@@ -350,7 +350,7 @@ import {
         },
       ],
       image: paint,
-      source_code_link: "https://github.com/shreyanshi-bhatt/ChatRoomApp",
+      source_code_link: "https://github.com/shreyanshi-bhatt/VirtualPaintV1",
     },
     {
       name: "DermaCare (MERN + Python Project)",
