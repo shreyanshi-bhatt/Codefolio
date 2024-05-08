@@ -8,6 +8,7 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+
 const Contact = () => {
 
   const formRef = useRef();
@@ -68,6 +69,7 @@ const Contact = () => {
 
 
   return (
+    <>
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
@@ -133,6 +135,18 @@ const Contact = () => {
         <EarthCanvas />
       </motion.div>
     </div>
+    <div>
+    <footer className="bg-black-100 text-white py-7 px-4 mt-10 text-center">
+    <p className={styles.sectionSubText}>Special thanks to @JavaScript Mastery for his tutorial on "Build and Deploy an Amazing 3D Web Developer Portfolio in React JS"</p>
+      <h3 className={styles.sectionHeadText}>Thank You</h3>
+      <div className="flex justify-center gap-1 mt-6">
+      </div>
+      <p className="mt-6 text-sm">
+        © {new Date().getFullYear()} Shreyanshi Bhatt
+      </p>
+    </footer>
+    </div>
+    </>
   )
 }
 

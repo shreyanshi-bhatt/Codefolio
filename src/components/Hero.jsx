@@ -11,7 +11,7 @@ const Hero = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   const handleResize = () => {
-    if (window.innerWidth <= 800) {
+    if (window.innerWidth <= 1290) {
       setIsMobile(true);
     } else {
       setIsMobile(false);
@@ -41,11 +41,11 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Shreyanshi</span>
+            Hi there! <span className='text-[#915EFF]'>Shreyanshi</span> here!
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Computer Engineering Student, <br className='sm:block hidden' />
-            Web Developer & Content Creator.
+            Welcome to my Codefolio.<br className='sm:block hidden' />
+            Am I a programmer? Yes. Do I meticulously watch coding scenes in movies just to roast them later? Absolutely!
           </p>
         </div>
       </div>
