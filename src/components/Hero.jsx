@@ -45,7 +45,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Welcome to my Codefolio.<br className='sm:block hidden' />
-            Am I a programmer? Yes. Do I meticulously watch coding scenes in movies just to roast them later? Absolutely!
+            {isMobile ? ' ' : ''}Am I a programmer? Yes. Do I meticulously watch coding scenes in movies just to roast them later? Absolutely!
           </p>
         </div>
       </div>

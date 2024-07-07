@@ -86,7 +86,7 @@ import {
       icon: backend,
     },
     {
-      title: "Cybersecurity Practitioner",
+      title: "Aspiring MS Student",
       icon: creator,
     },
   ];
@@ -278,6 +278,28 @@ import {
       points: [
         "Web testing",
         "Created a Selenium Webdriver for Automated Testing as work deliverable"
+      ],
+    },
+    {
+      title: "React Intern",
+      company_name: "Infolabz",
+      icon: "https://img.icons8.com/ios-glyphs/30/react.png",
+      iconBg: "#E6DEDD",
+      date: "Jun 2024 - Jul 2024",
+      points: [
+        "Dynamic web page creation",
+        "Used APIs to create live websites"
+      ],
+    },
+    {
+      title: "Artificial Intelligence Intern",
+      company_name: "CSRBOX x IBMSkillsBuild",
+      icon: "https://img.icons8.com/ios-filled/50/artificial-intelligence.png",
+      iconBg: "#E6DEDD",
+      date: "Jul 2024 - Aug 2024",
+      points: [
+        "Utilized state of the art AI/ML models to solve real world problems",
+        "Used generative ai to create innovative solutions"
       ],
     },
   ];
