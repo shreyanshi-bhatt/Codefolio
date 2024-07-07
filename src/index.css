@@ -261,3 +261,9 @@
     margin-top: 25%;
   }
 }
+
+@media (max-width: 720px){
+  .custom {
+    margin-top: 30%;
+  }
+}
