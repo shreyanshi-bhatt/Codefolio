@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { styles } from '../styles'
 import { navLinks } from '../constants'
-import { newLogo, menu, close } from '../assets' 
+import { newLogo, menu, full_menu, close } from '../assets' 
 
 const Navbar = () => {
   const [active, setActive] = useState("")
@@ -33,7 +33,7 @@ const Navbar = () => {
       ${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary
       `
     }>
-      <div className='w-full flex justify-between items-center max-w-7x1 mx-auto'>
+      <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <Link to="/" className='flex items-center gap-2' onClick={() => {
           setActive("");
           window.scrollTo(0, 0)
@@ -41,7 +41,7 @@ const Navbar = () => {
           <img id='logo' src={newLogo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex'>
             Shreyanshi Bhatt &nbsp;
-            <span className='sm:block hidden'>| &nbsp;Codefolio</span>
+            <span className='xl:block hidden'>| &nbsp;Codefolio</span>
           </p>
         </Link>
         <ul className='list-none hidden lg:flex flex-row gap-10'>
@@ -62,7 +62,7 @@ const Navbar = () => {
 
         <div className='lg:hidden flex flex-1 justify-end items-center'>
           <img
-            src={toggle ? close : menu}
+            src={toggle ? close : full_menu}
             alt='menu'
             className='w-[28px] h-[28px] object-contain cursor-pointer'
             onClick={() => setToggle(!toggle)} />

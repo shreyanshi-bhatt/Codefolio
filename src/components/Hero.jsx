@@ -30,7 +30,7 @@ const Hero = () => {
   var orientation = isMobile ? 'relative' : 'absolute';
 
   return (
-    <section className={`relative w-full h-screen mx-auto`}>
+    <section className={`relative w-full lg:h-screen mx-auto`}>
       <div
         className={`${styles.paddingX} ${orientation} inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >

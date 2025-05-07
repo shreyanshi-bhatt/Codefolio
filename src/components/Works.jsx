@@ -168,7 +168,7 @@ const Works = () => {
     <>
       <div>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
-        <p className={`${styles.sectionSubText} `}>Soul, Sweat, Tears & ChatGPT of course. ⭐</p>
+        <p className={`${styles.sectionSubText} `}>Soul, Sweat, Tears & and a little help from my AI friends. ⭐</p>
       </div>
 
       <div className='w-full flex'>

@@ -154,6 +154,9 @@
 // export default SectionWrapper(Contact, "contact");
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import { FaLinkedin } from "react-icons/fa6";
+import { IoLogoYoutube } from "react-icons/io";
+
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
@@ -274,12 +277,21 @@ const Contact = () => {
       </div>
 
       <footer className="bg-black-100 text-white py-7 px-4 mt-10 text-center">
+        <p className="italic font-bold font-serif text-blue-600">"कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।"</p>
+        <p className="italic font-bold font-serif mb-5 text-red-500">"You have the right to perform your duties, but not to the fruits of your actions."</p>
         <p className={styles.sectionSubText}>
           Special thanks to @JavaScript Mastery for his tutorial on "Build and Deploy an Amazing 3D Web Developer Portfolio in React JS"
         </p>
         <h3 className={styles.sectionHeadText}>Thank You</h3>
-        <div className="flex justify-center gap-1 mt-6"></div>
-        <p className="mt-6 text-sm">© Shreyanshi Bhatt</p>
+        <div className="flex justify-center align-middle gap-3">
+          <a href="https://www.linkedin.com/in/shreyanshi-bhatt-3bab3324b/" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin className="text-3xl text-blue-600 cursor-pointer" />
+          </a>
+          <a href="https://youtube.com/@shreyanshibhatt?si=imG7GAzltTLXaM_B" target="_blank" rel="noopener noreferrer">
+            <IoLogoYoutube className="text-3xl text-red-600 cursor-pointer" />
+        </a>
+        </div>
+        <p className="mt-3 text-sm">© Shreyanshi Bhatt {new Date().getFullYear()}</p>
       </footer>
     </>
   );

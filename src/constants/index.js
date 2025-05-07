@@ -42,6 +42,12 @@ import {
     vscode,
     numpy,
     firebase,
+    weave,
+    ddwc,
+    certificate,
+    sbs,
+    complaints,
+    job_finder,
     etc
   } from "../assets";
   
@@ -78,16 +84,32 @@ import {
       icon: web,
     },
     {
+      title: "Web Wizard",
+      icon: creator,
+    },
+    {
       title: "Software Solution Provider",
       icon: mobile,
     },
     {
-      title: "AI/ML Enthusiast",
+      title: "AI/ML Integrator",
       icon: backend,
     },
     {
-      title: "Aspiring MS Student",
+      title: "App Dev (React Native)",
       icon: creator,
+    },
+    {
+      title: "YouTuber @ShreyanshiBhatt",
+      icon: mobile,
+    },
+    {
+      title: "Masters of Computer Science student",
+      icon: backend,
+    },
+    {
+      title: "Founder of Weave",
+      icon: web,
     },
   ];
 
@@ -224,24 +246,26 @@ import {
       company_name: "Government Engineering College - Gandhinagar",
       icon: college,
       iconBg: "#383E56",
-      date: "October 2021 - August 2025",
+      date: "October 2021 - June 2025",
       points: [
-        "2021 - Present"
+        "CGPA: 9.14/10",
+        "Relevant Coursework: Data Structures and Algorithms, Database Management Systems, Operating Systems, Software Engineering, Computer Networks, Object Oriented Programming, Artificial Intelligence, Machine Learning, Cloud Computing",
       ],
     },
   ];
 
   const experiences = [
     {
-      title: "Google Developer Students Club",
-      company_name: "Core Team Member",
+      title: "Core Team Member",
+      company_name: "Google Developer Students Club",
       icon: gdsc,
       iconBg: "#E6DEDD",
-      date: "October 2022 - April 2023",
+      date: "June 2022 - June 2024",
       points: [
-        "Solution Challenge 2023",
-        "Hack-The-League 2023",
-        "Hosted events like Web3.0 etc."
+        "Google Solution Challenge",
+        "Hack-The-League - MLH Hackathon @Jaipur",
+        "SSIP Hackathon",
+        " Led and conducted technical events attended by 100+ participants"
       ],
     },
     {
@@ -281,14 +305,14 @@ import {
       ],
     },
     {
-      title: "React Intern",
+      title: "React JS Intern",
       company_name: "Infolabz",
       icon: "https://img.icons8.com/ios-glyphs/30/react.png",
       iconBg: "#E6DEDD",
       date: "Jun 2024 - Jul 2024",
       points: [
-        "Dynamic web page creation",
-        "Used APIs to create live websites"
+        "Developed dynamic web page designs using React.js, ensuring responsive layouts for optimal user interaction across devices. ",
+        "Focused on creating interactive user interfaces, resulting in a 27% improvement in user engagement and overall user experience. "
       ],
     },
     {
@@ -299,7 +323,20 @@ import {
       date: "Jul 2024 - Aug 2024",
       points: [
         "Utilized state of the art AI/ML models to solve real world problems",
-        "Used generative ai to create innovative solutions"
+        "Used Generative AI to create innovative solutions"
+      ],
+    },
+    {
+      title: "Web Software Developer Intern",
+      company_name: "Megnx Software Pvt. Ltd.",
+      icon: "https://img.icons8.com/clouds/100/laptop.png",
+      iconBg: "#E6DEDD",
+      date: "Jan 2025 - Apr 2025",
+      points: [
+        "Rapidly developed and contributed to 7 diverse projects within a 3-month internship period.",
+        "Built applications across multiple tech stacks, including React.js, Node.js, PostgreSQL, Angular, and .NET.",
+        "Achieved a 40% improvement in project delivery speed through efficient development practices.",
+        "Mentored and guided new interns by explaining technical concepts, reviewing code, and providing feedback"
       ],
     },
   ];
@@ -333,6 +370,161 @@ import {
   
   const projects = [
     {
+      name: "Weave",
+      description:
+        "Weave is a social platform for international students to connect, share, and grow. With country-based feeds, smart hashtags, interactive posts, and a Buddy Matcher for interest-based pairing, it fosters global community. Built as a responsive PWA, Weave is evolving to include Agentic AI for personalized career support.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "typescript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "appwrite",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: weave,
+      source_code_link: "https://github.com/shreyanshi-bhatt/Weave-Beta-Version",
+    },
+    {
+      name: "DermaCare (MERN + Python Project)",
+      description:
+        "An advanced web application for dermatology that employs deep learning to diagnose skin conditions from user-uploaded images. Additionally, it facilitates direct communication between patients and their doctors for personalized consultations and diagnoses.",
+      tags: [
+        {
+          name: "mernStack",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mobileNetv2",
+          color: "green-text-gradient",
+        },
+        {
+          name: "fastAPI",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: dermacare,
+      source_code_link: "https://github.com/shreyanshi-bhatt/DermaCare",
+    },
+    {
+      name: "Daily Desktop Wallpaper Changer",
+      description:
+        "Automate your desktop's ambiance with the Daily Windows Desktop Wallpaper Changer. Enhance productivity and creativity by scheduling daily updates of stunning wallpapers from Wallhaven, tailored to your preferences. Elevate your desktop experience today!",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "scripting",
+          color: "green-text-gradient",
+        },
+        {
+          name: "scraping",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: ddwc,
+      source_code_link: "https://github.com/shreyanshi-bhatt/Daily-Desktop-Wallpaper-Changer",
+    },
+    {
+      name: "One-Click Bulk Certificate Generator",
+      description:
+        "Automatic Certificate Generator is a web application built with Flask that allows users to generate customized certificates in bulk based on uploaded names. It supports uploading a text file containing names, dynamically placing them on a certificate template, and generating a downloadable ZIP file containing individual certificates.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "flask",
+          color: "green-text-gradient",
+        },
+        {
+          name: "openCV",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "pillow",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "html",
+          color: "green-text-gradient",
+        },
+      ],
+      image: certificate,
+      source_code_link: "https://github.com/shreyanshi-bhatt/Automatic-Certificate-Generator",
+    },
+    {
+      name: "SBS Store",
+      description:
+        "SBS Store is a sleek eCommerce platform for electronic gadgets, built with Next.js for fast, modern UI, Sanity CMS for dynamic content management, and Stripe for secure, seamless payments.",
+      tags: [
+        {
+          name: "stripe",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "nextjs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "sanity",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: sbs,
+      source_code_link: "https://github.com/shreyanshi-bhatt/ecommerce-app",
+    },
+    {
+      name: "Complaints.ai",
+      description:
+        "This is an AI powered app that allows the user to upload a complaints.txt file and returns the number of complaints per category along with a bar chart for better data visualization.",
+      tags: [
+        {
+          name: "streamlit",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "groq-api",
+          color: "green-text-gradient",
+        },
+        {
+          name: "llm",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: complaints,
+      source_code_link: "https://github.com/shreyanshi-bhatt/Complaints.ai",
+    },
+    {
+      name: "Job Finder App",
+      description:
+        "React Native based Job Finder Application that uses the JSearch API to provide the user with the latest jobs.",
+      tags: [
+        {
+          name: "react-native",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "expo",
+          color: "green-text-gradient",
+        },
+        {
+          name: "jsearch-api",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: job_finder,
+      source_code_link: "https://github.com/shreyanshi-bhatt/JobFinderApp",
+    },
+    {
       name: "SBGPT - my AI sidekick on Discord",
       description:
         "Developed a personal AI assistant for Discord, leveraging the Discord API and ChatGPT's API. This assistant not only provides real-time support and responses but also possesses the ability to recall and reference previous interactions, enhancing user engagement and streamlining communication.",
@@ -354,7 +546,7 @@ import {
       source_code_link: "https://replit.com/@shreyanshiBhatt/DiscordBot",
     },
     {
-      name: "Paint in the Air (OpenCV Project)",
+      name: "Paint in the Air",
       description:
         "A real-time application enabling users to create dynamic sketches by tracking motion with a marker in the air. Simply trigger the spacebar to initialize the drawing functionality, harnessing the power of computer vision for an immersive artistic experience.",
       tags: [
@@ -373,27 +565,6 @@ import {
       ],
       image: paint,
       source_code_link: "https://github.com/shreyanshi-bhatt/VirtualPaintV1",
-    },
-    {
-      name: "DermaCare (MERN + Python Project)",
-      description:
-        "An advanced web application for dermatology that employs deep learning to diagnose skin conditions from user-uploaded images. Additionally, it facilitates direct communication between patients and their doctors for personalized consultations and diagnoses.",
-      tags: [
-        {
-          name: "mernStack",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mobileNetv2",
-          color: "green-text-gradient",
-        },
-        {
-          name: "fastAPI",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: dermacare,
-      source_code_link: "https://github.com/shreyanshi-bhatt/SkinScan",
     },
     // {
     //   name: "E-Commerce Store",
