@@ -6,6 +6,7 @@ import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
+import full_menu from "./full_menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
@@ -52,6 +53,12 @@ import journal from "./journal.png";
 
 import dermacare from "./dermacare.jpg";
 import paint from "./paint.jpg";
+import weave from "./weave.jpeg";
+import certificate from "./certificate.png";
+import sbs from "./sbs.png";
+import ddwc from "./ddwc.png";
+import complaints from "./complaints.png";
+import job_finder from "./job_finder.png";
 import discord from "./discord.jpg";
 
 export {
@@ -63,6 +70,7 @@ export {
   web,
   github,
   menu,
+  full_menu,
   close,
   css,
   docker,
@@ -93,6 +101,12 @@ export {
   girl,
   dermacare,
   paint,
+  weave,
+  ddwc,
+  certificate,
+  sbs,
+  complaints,
+  job_finder,
   discord,
   flask,
   colab,
