@@ -30,6 +30,8 @@ import {
     college,
     asu,
     gdsc,
+    ais,
+    soda,
     girl,
     dermacare,
     paint,
@@ -261,7 +263,7 @@ import {
       date: "August 2025 - May 2027",
       points: [
         "Relevant Coursework: Semantic Web Mining, Foundations of Algorithms, Knowledge Representation & Reasoning",
-        "Awarded with the prestigious New American (NAMU) Scholarship 2025"
+        "Awarded with the prestigious New American University (NAMU) Scholarship 2025"
       ],
     },
   ];
@@ -349,6 +351,30 @@ import {
         "Built applications across multiple tech stacks, including React.js, Node.js, PostgreSQL, Angular, and .NET.",
         "Achieved a 40% improvement in project delivery speed through efficient development practices.",
         "Mentored and guided new interns by explaining technical concepts, reviewing code, and providing feedback"
+      ],
+    },
+    {
+      title: "Software Development Officer",
+      company_name: "The AI Society @ ASU",
+      icon: ais,
+      iconBg: "#E6DEDD",
+      date: "August 2025 - Present",
+      points: [
+        "AI Makerspace",
+        "Technical Workshops",
+        "Full Stack Development",
+        "AI integrations"
+      ],
+    },
+    {
+      title: "Mentor",
+      company_name: "The Software Developers Association (SoDA) @ ASU",
+      icon: soda,
+      iconBg: "#E6DEDD",
+      date: "September 2025 - Present",
+      points: [
+        "Guiding two students through end-to-end development of machine learning projects, including data preprocessing, model selection, and evaluation.",
+        "Providing technical and conceptual mentorship to strengthen their understanding of applied ML and best practices in project implementation.",
       ],
     },
   ];

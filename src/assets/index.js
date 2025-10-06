@@ -43,6 +43,8 @@ import school from "./company/school.jpg";
 import college from "./company/college.png";
 import asu from "./company/asu.png";
 import gdsc from "./company/gdsc.png";
+import ais from "./company/ais.png";
+import soda from "./company/soda.svg";
 import girl from "./company/girl.jpg";
 
 import carrent from "./carrent.png";
@@ -100,6 +102,8 @@ export {
   college,
   asu,
   gdsc,
+  ais,
+  soda,
   girl,
   dermacare,
   paint,
