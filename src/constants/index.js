@@ -253,6 +253,7 @@ import {
       points: [
         "CGPA: 9.14/10",
         "Relevant Coursework: Data Structures and Algorithms, Database Management Systems, Operating Systems, Software Engineering, Computer Networks, Object Oriented Programming, Artificial Intelligence, Machine Learning, Cloud Computing",
+        "Student Clubs: GDSC (Google Developer Students Club) - Core Team Member",
       ],
     },
     {
@@ -263,7 +264,8 @@ import {
       date: "August 2025 - May 2027",
       points: [
         "Relevant Coursework: Semantic Web Mining, Foundations of Algorithms, Knowledge Representation & Reasoning",
-        "Awarded with the prestigious New American University (NAMU) Scholarship 2025"
+        "Awarded with the prestigious New American University (NAMU) Scholarship 2025",
+        "Student Clubs: The AI Society @ ASU - Software Development Officer, The Software Developers Association (SoDA) @ ASU - Mentor"
       ],
     },
   ];
