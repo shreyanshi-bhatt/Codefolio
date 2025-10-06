@@ -41,6 +41,7 @@ import etc from "./tech/etc.png";
 
 import school from "./company/school.jpg";
 import college from "./company/college.png";
+import asu from "./company/asu.png";
 import gdsc from "./company/gdsc.png";
 import girl from "./company/girl.jpg";
 
@@ -97,6 +98,7 @@ export {
   journal,
   school,
   college,
+  asu,
   gdsc,
   girl,
   dermacare,

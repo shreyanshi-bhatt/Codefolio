@@ -28,6 +28,7 @@ import {
     journal,
     school,
     college,
+    asu,
     gdsc,
     girl,
     dermacare,
@@ -255,8 +256,8 @@ import {
     {
       title: "MS in Computer Science",
       company_name: "Arizona State University",
-      icon: college,
-      iconBg: "#383E56",
+      icon: asu,
+      iconBg: "#E6DEDD",
       date: "August 2025 - May 2027",
       points: [
         "Relevant Coursework: Semantic Web Mining, Foundations of Algorithms, Knowledge Representation & Reasoning",
