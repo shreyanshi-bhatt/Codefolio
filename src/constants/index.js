@@ -252,6 +252,17 @@ import {
         "Relevant Coursework: Data Structures and Algorithms, Database Management Systems, Operating Systems, Software Engineering, Computer Networks, Object Oriented Programming, Artificial Intelligence, Machine Learning, Cloud Computing",
       ],
     },
+    {
+      title: "MS in Computer Science",
+      company_name: "Arizona State University",
+      icon: college,
+      iconBg: "#383E56",
+      date: "August 2025 - May 2027",
+      points: [
+        "Relevant Coursework: Semantic Web Mining, Foundations of Algorithms, Knowledge Representation & Reasoning",
+        "Awarded with the prestigious New American (NAMU) Scholarship 2025"
+      ],
+    },
   ];
 
   const experiences = [
