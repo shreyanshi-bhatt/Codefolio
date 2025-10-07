@@ -65,6 +65,19 @@ import complaints from "./complaints.png";
 import job_finder from "./job_finder.png";
 import discord from "./discord.jpg";
 
+import aws from "./aws.png";
+import cisco from "./cisco.png";
+import freecodecamp from "./freecodecamp.png";
+import hacktoberfest from "./hacktoberfest.png";
+import udemy from "./udemy.png";
+import postman from "./postman.png";
+import microsoft from "./microsoft.png";
+import ibm from "./ibm.png";
+import hackerrank from "./hackerrank.png";
+import leetcode from "./leetcode.png";
+import kaggle from "./kaggle.png";
+import scrimba from "./scrimba.png";
+
 export {
   newLogo,
   logo,
@@ -125,5 +138,17 @@ export {
   numpy,
   weave_logo,
   firebase,
-  etc
+  aws,
+  cisco,
+  freecodecamp,
+  hacktoberfest,
+  udemy,
+  postman,
+  microsoft,
+  ibm,
+  etc,
+  hackerrank,
+  leetcode,
+  kaggle,
+  scrimba,
 };

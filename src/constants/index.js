@@ -51,7 +51,19 @@ import {
     sbs,
     complaints,
     job_finder,
-    etc
+    etc,
+    aws,
+    cisco,
+    freecodecamp,
+    hacktoberfest,
+    udemy,
+    postman,
+    microsoft,
+    ibm,
+    hackerrank,
+    leetcode,
+    kaggle,
+    scrimba
   } from "../assets";
   
   export const navLinks = [
@@ -113,6 +125,57 @@ import {
     {
       title: "Founder of Weave",
       icon: web,
+    },
+  ];
+
+  const certificates_and_awards = [
+    {
+      title: "Postman API Fundamentals Student Expert",
+      icon: postman,
+    },
+    {
+      title: "Responsive Web Design",
+      icon: freecodecamp,
+    },
+    {
+      title: "AWS Cloud Quest: Cloud Practitioner",
+      icon: aws,
+    },
+    {
+      title: "100 Days of Code - The Complete Python Pro Bootcamp",
+      icon: udemy,
+    },
+    {
+      title: "Introduction to Cyber security",
+      icon: cisco,
+    },
+    {
+      title: "Tree Planting Certificate for Open Source Contribution",
+      icon: hacktoberfest,
+    },
+    {
+      title: "Microfoft Asia AI Odyssey",
+      icon: microsoft,
+    },
+    {
+      title: "Fundamentals of AI",
+      icon: ibm,
+    },
+    {
+      title: "Pandas for Data Science",
+      icon: kaggle,
+    },
+    {
+      title: "SQL",
+      icon: hackerrank,
+    },
+    {
+      title: "100 Days Badge",
+      icon: leetcode,
+    },
+    {
+      title: "React JS",
+      icon: scrimba,
     },
   ];
 
@@ -629,4 +692,4 @@ import {
     // },
   ];
   
-  export { services, technologies, educations, testimonials, projects, experiences, certificates, courses};
+  export { services, technologies, educations, testimonials, projects, experiences, certificates_and_awards, courses};
