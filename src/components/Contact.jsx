@@ -6,9 +6,9 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { Analytics } from "@vercel/analytics/react"
-import SupabaseCounter from "./supabaseCounter";
 import { FaGithub } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
+import { Counter } from "../components";
 import { weave_logo } from "../assets";
 import { IoDocumentText } from "react-icons/io5";
 
@@ -155,7 +155,7 @@ const Contact = () => {
         </div>
         <h3 className={styles.sectionHeadText}>Thank You</h3>
         <Analytics />
-        <SupabaseCounter />
+        <Counter />
       </footer>
       <p className="mt-3 text-sm text-center">© Shreyanshi Bhatt {new Date().getFullYear()}</p>
     </>

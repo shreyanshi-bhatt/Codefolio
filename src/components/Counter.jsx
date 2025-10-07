@@ -6,7 +6,7 @@ const supabase = createClient(
   import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY
 );
 
-function SupabaseCounter() {
+const Counter = () => {
   const [count, setCount] = useState(null);
   const rowId = "71825a47-55b0-412d-92fc-75c6d7dde3fc"; // your row ID
 
@@ -72,4 +72,4 @@ function SupabaseCounter() {
   );
 }
 
-export default SupabaseCounter;
+export default Counter;
