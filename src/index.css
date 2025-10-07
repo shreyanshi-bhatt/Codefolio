@@ -267,3 +267,37 @@
     margin-top: 30%;
   }
 }
+
+/* Custom perspective */
+.perspective-600 {
+  perspective: 600px;
+}
+
+/* Needed for 3D transforms */
+.flip-digit-inner {
+  transform-style: preserve-3d;
+}
+
+/* Top flip: rotate from 0 → -180deg */
+@keyframes flip-top {
+  0% { transform: rotateX(0deg); }
+  100% { transform: rotateX(-180deg); }
+}
+
+/* Bottom flip: rotate from 180 → 0deg */
+@keyframes flip-bottom {
+  0% { transform: rotateX(180deg); }
+  100% { transform: rotateX(0deg); }
+}
+
+.animate-flip-top {
+  animation: flip-top 0.5s ease-in forwards;
+  transform-origin: bottom;
+}
+
+.animate-flip-bottom {
+  animation: flip-bottom 0.5s ease-out forwards;
+  transform-origin: top;
+}
+
+

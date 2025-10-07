@@ -257,14 +257,14 @@ import {
       ],
     },
     {
-      title: "MS in Computer Science",
+      title: "M.S in Computer Science",
       company_name: "Arizona State University",
       icon: asu,
       iconBg: "#E6DEDD",
       date: "August 2025 - May 2027",
       points: [
-        "Relevant Coursework: Semantic Web Mining, Foundations of Algorithms, Knowledge Representation & Reasoning",
         "Awarded with the prestigious New American University (NAMU) Scholarship 2025",
+        "Relevant Coursework: Semantic Web Mining, Foundations of Algorithms, Knowledge Representation & Reasoning",
         "Student Clubs: The AI Society @ ASU - Software Development Officer, The Software Developers Association (SoDA) @ ASU - Mentor"
       ],
     },

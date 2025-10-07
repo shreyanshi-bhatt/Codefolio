@@ -44,6 +44,7 @@ import college from "./company/college.png";
 import asu from "./company/asu.png";
 import gdsc from "./company/gdsc.png";
 import ais from "./company/ais.png";
+import weave_logo from "./company/weave.png";
 import soda from "./company/soda.svg";
 import girl from "./company/girl.jpg";
 
@@ -122,6 +123,7 @@ export {
   pycharm,
   vscode,
   numpy,
+  weave_logo,
   firebase,
   etc
 };

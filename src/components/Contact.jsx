@@ -6,6 +6,12 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { Analytics } from "@vercel/analytics/react"
+import SupabaseCounter from "./supabaseCounter";
+import { FaGithub } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
+import { weave_logo } from "../assets";
+import { IoDocumentText } from "react-icons/io5";
+
 
 const Contact = () => {
   const formRef = useRef();
@@ -122,23 +128,36 @@ const Contact = () => {
       </div>
 
       <footer className="bg-black-100 text-white py-7 px-4 mt-10 text-center">
-        <p className="italic font-bold font-serif text-blue-600">"कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।"</p>
-        <p className="italic font-bold font-serif mb-5 text-red-500">"You have the right to perform your duties, but not to the fruits of your actions."</p>
+        {/* <p className="italic font-bold font-serif blue-text-gradient">"कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।"</p> */}
+        <p className="italic font-bold text-lg mb-5 text-[#915EFF]"><span className="text-white mx-1">"</span>कर्मण्येवाधिकारस्ते मा फलेषु कदाचन <span className="text-white mx-1">~</span> You have the right to perform your duties, but not to the fruits of your actions.<span className="text-white mx-1">"</span></p>
         <p className={styles.sectionSubText}>
           Special thanks to @JavaScript Mastery for his tutorial on "Build and Deploy an Amazing 3D Web Developer Portfolio in React JS"
         </p>
-        <h3 className={styles.sectionHeadText}>Thank You</h3>
-        <div className="flex justify-center align-middle gap-3">
+        <div className="mt-5 flex justify-center align-middle items-center gap-3">
+          <a href="https://drive.google.com/file/d/1s1j1pYKsI4AJAQ1uNx3RjL8VKJQPspe3/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <IoDocumentText className="text-3xl text-sky-200 cursor-pointer" />
+          </a>
           <a href="https://www.linkedin.com/in/shreyanshi-bhatt-3bab3324b/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin className="text-3xl text-blue-600 cursor-pointer" />
+          </a>
+          <a href="https://github.com/shreyanshi-bhatt" target="_blank" rel="noopener noreferrer">
+            <FaGithub className="text-3xl text-white cursor-pointer" />
           </a>
           <a href="https://youtube.com/@shreyanshibhatt?si=imG7GAzltTLXaM_B" target="_blank" rel="noopener noreferrer">
             <IoLogoYoutube className="text-3xl text-red-600 cursor-pointer" />
           </a>
+          <a href="https://leetcode.com/u/ShreyanshiB/" target="_blank" rel="noopener noreferrer">
+            <SiLeetcode className="text-3xl text-yellow-600 cursor-pointer" />
+          </a>
+          <a href="https://weaveit.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <img src={weave_logo} alt="Weave Logo" className="w-6 h-6" />
+          </a>
         </div>
+        <h3 className={styles.sectionHeadText}>Thank You</h3>
         <Analytics />
-        <p className="mt-3 text-sm">© Shreyanshi Bhatt {new Date().getFullYear()}</p>
+        <SupabaseCounter />
       </footer>
+      <p className="mt-3 text-sm text-center">© Shreyanshi Bhatt {new Date().getFullYear()}</p>
     </>
   );
 };
