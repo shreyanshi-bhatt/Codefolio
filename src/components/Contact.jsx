@@ -155,7 +155,7 @@ const Contact = () => {
         </div>
         <h3 className={styles.sectionHeadText}>Thank You</h3>
         <Analytics />
-        <Counter />
+        {/* <Counter /> */}
       </footer>
       <p className="mt-3 text-sm text-center">© Shreyanshi Bhatt {new Date().getFullYear()}</p>
     </>
