@@ -151,7 +151,7 @@ const Education = () => {
           Education.
         </h2>
         <p className={styles.sectionSubText}>
-          19 years of learning and still counting! 📚
+          20 years of learning and still counting! 📚
         </p>
       </div>
 

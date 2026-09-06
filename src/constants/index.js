@@ -63,7 +63,9 @@ import {
     hackerrank,
     leetcode,
     kaggle,
-    scrimba
+    scrimba,
+    amazon,
+    policy_guard
   } from "../assets";
   
   export const navLinks = [
@@ -88,6 +90,10 @@ import {
       title: "Projects",
     },
     {
+      id: "certification",
+      title: "Certifications",
+    },
+    {
       id: "contact",
       title: "Contact",
     },
@@ -95,23 +101,23 @@ import {
   
   const services = [
     {
-      title: "Full Stack Developer",
+      title: "Softwares",
       icon: web,
     },
     {
-      title: "Web Wizard",
+      title: "AI Agents",
       icon: creator,
     },
     {
-      title: "Software Solution Provider",
+      title: "System Design",
       icon: mobile,
     },
     {
-      title: "AI/ML Integrator",
+      title: "Web",
       icon: backend,
     },
     {
-      title: "App Dev (React Native)",
+      title: "Apps",
       icon: creator,
     },
     {
@@ -119,11 +125,11 @@ import {
       icon: mobile,
     },
     {
-      title: "Masters of Computer Science student",
+      title: "Comp Engg + Comp Sci",
       icon: backend,
     },
     {
-      title: "Founder of Weave",
+      title: "Cook, Sing, Dance, Travel, Learn, & more!",
       icon: web,
     },
   ];
@@ -291,7 +297,7 @@ import {
         // "Implementing responsive design and ensuring cross-browser compatibility.",
         // "Participating in code reviews and providing constructive feedback to other developers.",
         "IGCSE O Level Examination",
-        "Grades: 4 A*, 2 A, 1 B, 1 C (85%)",
+        "Grades: 4 A*, 2 A, 1 B, 1 C",
         "Academic Excellence Award for securing 1st rank"
         
       ],
@@ -303,7 +309,7 @@ import {
       iconBg: "#E6DEDD",
       date: "June 2019 - August 2021",
       points: [
-        "CBSE",
+        "CBSE board",
         "Percentage: 95%"
       ],
     },
@@ -314,9 +320,10 @@ import {
       iconBg: "#383E56",
       date: "October 2021 - June 2025",
       points: [
-        "CGPA: 9.14/10",
-        "Relevant Coursework: Data Structures and Algorithms, Database Management Systems, Operating Systems, Software Engineering, Computer Networks, Object Oriented Programming, Artificial Intelligence, Machine Learning, Cloud Computing",
-        "Student Clubs: GDSC (Google Developer Students Club) - Core Team Member",
+        "CGPA: 9.27/10.00",
+        "Coursework: Data Structures and Algorithms, Database Management Systems, Operating Systems, Software Engineering, Computer Networks, Object Oriented Programming, Artificial Intelligence, Machine Learning, Cloud Computing, etc.",
+        // "Student Club(s): Google Developer Students Club",
+        "Leadership & Activities: Core Team Member at Google Developer Student Clubs (GDSC), organized technical events for 100+ participants and participated in Google Solution Challenge, MLH Hack The League, and SSIP Hackathon."
       ],
     },
     {
@@ -326,27 +333,30 @@ import {
       iconBg: "#E6DEDD",
       date: "August 2025 - May 2027",
       points: [
-        "Awarded with the prestigious New American University (NAMU) Scholarship 2025",
-        "Relevant Coursework: Semantic Web Mining, Foundations of Algorithms, Knowledge Representation & Reasoning",
-        "Student Clubs: The AI Society @ ASU - Software Development Officer, The Software Developers Association (SoDA) @ ASU - Mentor"
+        "CGPA: 3.89/4.00",
+        "Awarded with the prestigious New American University Scholarship",
+        "Coursework: Semantic Web Mining, Foundations of Algorithms, Knowledge Representation & Reasoning, Statistical Machine Learning, Software Verification, Validation, and Testing, Software Requirements & Specification, Statistical Learning Theory, Engineering Blockchain Applications, Mobile Computing.",
+        // "Student Club(s): The AI Society, The Software Developers Association (SoDA)",
+        "Leadership & Activities: Software Development Officer at The AI Society, leading full-stack development, AI integrations, and technical workshops. Mentor at The Software Developers Association (SoDA), guiding students through end-to-end machine learning project development.",
+        "Teaching & Mentoring: Instructional Aide (FSE 100) and Graduate Grader (CSE 551), mentoring students, evaluating assignments and projects, and supporting course delivery for undergraduate engineering and graduate Computer Science courses."
       ],
     },
   ];
 
   const experiences = [
-    {
-      title: "Core Team Member",
-      company_name: "Google Developer Students Club",
-      icon: gdsc,
-      iconBg: "#E6DEDD",
-      date: "June 2022 - June 2024",
-      points: [
-        "Google Solution Challenge",
-        "Hack-The-League - MLH Hackathon @Jaipur",
-        "SSIP Hackathon",
-        " Led and conducted technical events attended by 100+ participants"
-      ],
-    },
+    // {
+    //   title: "Core Team Member",
+    //   company_name: "Google Developer Students Club",
+    //   icon: gdsc,
+    //   iconBg: "#E6DEDD",
+    //   date: "June 2022 - June 2024",
+    //   points: [
+    //     "Google Solution Challenge",
+    //     "Hack-The-League - MLH Hackathon @Jaipur",
+    //     "SSIP Hackathon",
+    //     " Led and conducted technical events attended by 100+ participants"
+    //   ],
+    // },
     {
       title: "Full Stack Freelancer",
       company_name: "Your AI Shop",
@@ -418,28 +428,41 @@ import {
         "Mentored and guided new interns by explaining technical concepts, reviewing code, and providing feedback"
       ],
     },
+    // {
+    //   title: "Software Development Officer",
+    //   company_name: "The AI Society @ ASU",
+    //   icon: ais,
+    //   iconBg: "#E6DEDD",
+    //   date: "August 2025 - December 2025",
+    //   points: [
+    //     "AI Makerspace",
+    //     "Technical Workshops",
+    //     "Full Stack Development",
+    //     "AI integrations"
+    //   ],
+    // },
+    // {
+    //   title: "Mentor",
+    //   company_name: "The Software Developers Association (SoDA) @ ASU",
+    //   icon: soda,
+    //   iconBg: "#E6DEDD",
+    //   date: "September 2025 - December 2025",
+    //   points: [
+    //     "Guiding two students through end-to-end development of machine learning projects, including data preprocessing, model selection, and evaluation.",
+    //     "Providing technical and conceptual mentorship to strengthen their understanding of applied ML and best practices in project implementation.",
+    //   ],
+    // },
     {
-      title: "Software Development Officer",
-      company_name: "The AI Society @ ASU",
-      icon: ais,
+      title: "Software Engineer Intern",
+      company_name: "Amazon (Selling Partner Identity Verification Team)",
+      icon: amazon,
       iconBg: "#E6DEDD",
-      date: "August 2025 - Present",
+      date: "May 2026 - August 2026",
       points: [
-        "AI Makerspace",
-        "Technical Workshops",
-        "Full Stack Development",
-        "AI integrations"
-      ],
-    },
-    {
-      title: "Mentor",
-      company_name: "The Software Developers Association (SoDA) @ ASU",
-      icon: soda,
-      iconBg: "#E6DEDD",
-      date: "September 2025 - Present",
-      points: [
-        "Guiding two students through end-to-end development of machine learning projects, including data preprocessing, model selection, and evaluation.",
-        "Providing technical and conceptual mentorship to strengthen their understanding of applied ML and best practices in project implementation.",
+        "Built and deployed a multi-region canary testing system using TypeScript, Java, AWS Lambda, EventBridge, Kinesis, and CloudWatch to continuously validate end-to-end distributed workflows and detect silent failures.",
+        "Reduced potential failure detection time from reactive, customer-driven discovery to within 3 hours through automated health checks, retries, custom metrics, dashboards, and threshold-based alerting.",
+        "Engineered resilient testing infrastructure using cross-account IAM, dependency injection, and unit tests; successfully detected and surfaced a real production degradation.",
+        "Leveraged a team-built AI toolkit, to accelerate research, codebase exploration, and development."
       ],
     },
   ];
@@ -586,16 +609,16 @@ import {
       source_code_link: "https://github.com/shreyanshi-bhatt/ecommerce-app",
     },
     {
-      name: "Complaints.ai",
+      name: "Policy-Guard",
       description:
-        "This is an AI powered app that allows the user to upload a complaints.txt file and returns the number of complaints per category along with a bar chart for better data visualization.",
+        "An AI-powered privacy policy analysis engine that extracts key data practices, verifies compliance using deterministic rules, and generates structured risk reports through a modular FastAPI backend.",
       tags: [
         {
-          name: "streamlit",
+          name: "fastAPI",
           color: "blue-text-gradient",
         },
         {
-          name: "groq-api",
+          name: "sqlite",
           color: "green-text-gradient",
         },
         {
@@ -603,8 +626,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: complaints,
-      source_code_link: "https://github.com/shreyanshi-bhatt/Complaints.ai",
+      image: policy_guard,
+      source_code_link: "https://github.com/shreyanshi-bhatt/Policy-Guard",
     },
     {
       name: "Job Finder App",

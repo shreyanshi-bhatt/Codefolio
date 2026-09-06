@@ -78,6 +78,9 @@ import leetcode from "./leetcode.png";
 import kaggle from "./kaggle.png";
 import scrimba from "./scrimba.png";
 
+import amazon from "./company/amazon.png";
+import policy_guard from "./policy-guard.jpeg";
+
 export {
   newLogo,
   logo,
@@ -151,4 +154,6 @@ export {
   leetcode,
   kaggle,
   scrimba,
+  amazon,
+  policy_guard
 };

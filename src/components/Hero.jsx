@@ -45,7 +45,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Welcome to my Codefolio.<br className='sm:block hidden' />
-            {isMobile ? ' ' : ''}Am I a programmer? Yes. Do I meticulously watch coding scenes in movies just to roast them later? Absolutely!
+            {isMobile ? ' ' : ''} It's all about <span className='text-[#915EFF]'>Bit</span>, <span className='text-[#915EFF]'>Git</span>, & making it <span className='text-[#915EFF]'>Lit</span>!
           </p>
         </div>
       </div>

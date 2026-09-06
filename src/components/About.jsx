@@ -27,16 +27,14 @@ const About = () => {
   return (
     <>
         <h2 className={`${styles.sectionHeadText}`}>About.</h2>
-        <p className={styles.sectionSubText}>It's me! 🙋🏻‍♀️ HI! I'm the coder, it's me! 💻</p>
+        <p className={styles.sectionSubText}>It's me! HI! 🙋🏻‍♀️ I'm the builder, it's me! 💻</p>
 
       <p className='mt-4 text-secondary text-[17px] w-full leading-[30px]'>
-        I'm a Full Stack Web Developer with a passion for solving real-world challenges and driving technological advancement. Proficient 
-        in a wide array of programming languages including Python, JavaScript, Java, and C, with expertise spanning frontend technologies such as ReactJS, 
-        HTML, and CSS, as well as backend frameworks like NodeJS, ExpressJS, and Flask. Skilled in database management systems such as MongoDB, MySQL, and Firebase, 
-        and adept at utilizing version control tools like Git and GitHub. With a strong foundation in computer science and a knack for problem-solving, I strive to 
-        transform ideas into functional and efficient code. Whether it's developing applications, building softwares, or 
-        formulating AI solutions, I have the skills to bring your technological aspirations to fruition. 
-        If you are looking for someone who can turn your vision into a reality - you have come to the right place!
+        Software Engineer and Master's student in Computer Science at Arizona State University,
+        passionate about building scalable, production-grade software and AI-powered applications.
+        Experience spans full stack development, distributed systems, cloud infrastructure, and
+        LLM-enabled products, with industry experience at Amazon and a track record of shipping reliable
+        software using modern engineering practices. Enjoys thinking, learning, and problem-solving.
       </p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

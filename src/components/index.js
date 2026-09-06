@@ -9,7 +9,6 @@ import Feedbacks from './Feedbacks';
 import Contact from './Contact';
 import Experience from './Experience';
 import Certification from './Certification';
-import Counter from './Counter';
 
 export {
   Hero,
@@ -26,5 +25,4 @@ export {
   BallCanvas, 
   ComputersCanvas, 
   StarsCanvas,
-  Counter
 }
